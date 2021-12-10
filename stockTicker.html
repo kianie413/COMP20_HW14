@@ -2,13 +2,12 @@
 <html lang="en" dir="ltr">
     <head>
         <meta charset="utf-8">
-        <title></title>
+        <title>Stock Ticker</title>
 
          <style type="text/css">
 
                  .container {
-                   max-width: 640px;
-                   padding:40px;
+                   text-align: center;
                    margin-left: auto;
                    margin-right: auto;
                  }
@@ -18,23 +17,32 @@
 
                  }
 
+                 h1{
+                     text-align: center;
+                     font-size: bold;
+                 }
+                 body{
+                     background-color: #99AFD7;
+                 }
+
          </style>
     </head>
     <body>
+        <h1>Stock Ticker</h1>
 
     <div class="container">
 
         <form class="" action="Node.js" method="post">
-
+        <br>
         <label for="cName"><b>Company Name:</b></label>
         <input type="text" placeholder="Enter company name: "
         name="cName">
 
-        <br>
+        <br> <br>
         <label for="sTicker"><b>Stock Ticker:</b></label>
         <input type="text" name="sTicker" placeholder="Enter stock ticker: ">
 
-        <br>
+        <br> <br>
         <div class="section">
 
         <button type="button" name="button">Search database</button>
